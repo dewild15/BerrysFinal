@@ -246,6 +246,10 @@ html,body
   }
 }
 
+.fb-page {
+    padding-top: 15px;
+}
+
 /* Extras */
 @media (max-width: 1028px) {
   .list-group-flush {
