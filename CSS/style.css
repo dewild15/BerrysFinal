@@ -1,0 +1,257 @@
+
+.body {
+  text-align: center;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#introduction.container-fluid {
+  padding: 3% 10%;
+}
+
+.navbar {
+  background-color: #4eb3ed;
+  padding-bottom: 4.5rem;
+}
+
+.berry-navbar {
+  color: #fff;
+  font-family: 'Satisfy', cursive;
+  font-size: 2.1rem;
+  padding-left: 5%;
+}
+
+.berry-navbar:hover{
+  color: #4e64ed;
+}
+
+.nav-item {
+  padding: 0 30px;
+}
+
+.fas, .far {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #fff;
+  font-family: 'Satisfy', cursive;
+  font-size: 1.2rem;
+  float: left;
+}
+
+.nav-link:hover {
+  color: #4e64ed;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+/* Title */
+
+#introduction {
+  background-color: #f8f8f8;
+}
+
+.header-title {
+  font-family: 'Satisfy', cursive;
+  color: #fff;
+  font-size: 4.5rem;
+  padding-top: 2.5%;
+}
+
+.secondary-title {
+  font-family: 'Oswald', sans-serif;
+  color: #121b74;
+  line-height: 1.5;
+}
+
+.appt-but {
+  margin-bottom: 1.5%
+}
+
+.proud-photo {
+  padding-top: 4.25%;
+}
+
+.berry-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 2%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 2.5%;
+}
+
+.services {
+  background-color: #4eb3ed;
+}
+
+.secondary-svcs {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  padding-bottom: 3%;
+}
+
+.list-group-flush {
+  width: 25%;
+  color: #4eb3ed;
+  font-family: 'Oswald', sans-serif;
+}
+
+.our-family {
+  font-family: 'Oswald', sans-serif;
+  color: #121b74;
+  line-height: 1.5;
+  font-size: 1.8rem;
+  padding: 15px 0px;
+}
+
+.family-photo {
+  max-width: 100% !important;
+  height: auto;
+  width: auto;
+  padding: 15px 0px;
+}
+
+.about-us {
+  max-width: 100% !important;
+  height: auto;
+  width: auto;
+}
+
+.duke-dj {
+  max-width: 100% !important;
+  height: auto;
+  width: auto;
+  padding: 15px 0px;
+}
+
+#testimonials.container-fluid {
+  padding: 7% 15%;
+}
+
+.customer {
+  background-color: #4eb3ed;
+  padding: 3%;
+}
+
+.customers {
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.testimonial-text {
+  color: #121b74;
+  font-family: 'Oswald', sans-serif;
+  padding: 7% 17%;
+}
+
+.the-carousel {
+  background-color: #f8f8f8;
+}
+
+#hours-location {
+  background-color: #f8f8f8;
+}
+
+
+.h-l, .family {
+  background-color: #4eb3ed;
+  padding: 3%;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  margin: auto;
+}
+
+.hl-row {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.map {
+  width: 100%;
+}
+
+#footer {
+  background-color: #4eb3ed;
+  padding-top: 3%;
+  color: #fff;
+  font-family: 'Satisfy', cursive;
+}
+
+#footer.container-fluid {
+  padding: 7% 15%;
+}
+
+.social-icon {
+  padding-bottom: 3%;
+  color: #fff;
+}
+
+.social-icon:hover {
+  color: #121b74;
+}
+
+/* Request An Appointment */
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+  padding: 20px 0px 20px 20px;
+  background-color: #f8f8f8;
+}
+
+.form-inline label {
+  margin: 5px 10px 5px 10px;
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+/* Extras */
+@media (max-width: 1028px) {
+  .list-group-flush {
+    width: 50%;
+  }
+  .map {
+    width: 100%;
+  }
+}
