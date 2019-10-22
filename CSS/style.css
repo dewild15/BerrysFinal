@@ -107,12 +107,17 @@ html,body
   font-family: 'Oswald', sans-serif;
 }
 
+.berry-family {
+  background-color: #f8f8f8;
+}
+
 .our-family {
   font-family: 'Oswald', sans-serif;
   color: #121b74;
   line-height: 1.5;
   font-size: 1.8rem;
   padding: 15px 0px;
+  
 }
 
 .family-photo {
@@ -163,7 +168,6 @@ html,body
 #hours-location {
   background-color: #f8f8f8;
 }
-
 
 .h-l, .family {
   background-color: #4eb3ed;
